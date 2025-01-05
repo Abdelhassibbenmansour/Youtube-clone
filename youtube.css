@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 7.5px;
+    font-size: 1.3em;
+}
+
+header a {
+    padding: 10px;
+}
+
+.right .user img {
+    width: 30px;
+    height: 30px;
+}
+
+.left {
+    margin-left: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.left a {
+    color: black;
+}
+
+.left .youtube {
+    color: red;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 220px;
+}
+
+.center a {
+    color: #000000;
+}
+
+.center form input {
+    width: 500%;
+    margin-left: -100px;
+    height: 30px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+    margin-right: 30px;
+}
+
+.right a {
+    color: #000000;
+}
+
+header div a:hover {
+    background-color: #f2f2f2;
+    border-radius: 50%;
+}
+
+section {
+    display: flex;
+}
+
+section .left-section {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 13px;
+}
+
+section .left-section .first {
+    background-color: #f2f2f2;
+}
+
+section .left-section .shorts {
+    gap: 31px;
+}
+
+section .left-section a {
+    display: flex;
+    gap: 25px;
+    width: 300px;
+    color: #000000;
+    padding: 7.5px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+section .left-section h4 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3px;
+    width: 100%;
+}
+
+section .left-section {
+    margin-left: 30px;
+}
+
+section .left-section a .profil {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+section .left-section a .profil img {
+    width: 100%;
+    height: 100%;
+}
+
+section .left-section a:hover {
+    background-color: #f2f2f2;
+}
+
+.head-section {
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.head-section a {
+    text-decoration: none;
+    color: black;
+    padding: 7.5px;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+}
+
+.head-section a:first-of-type {
+    background-color: black;
+    color: #ffffff;
+}
+
+.head-section a:hover {
+    background-color: #e6e6e6;
+}
+
+.head-section a:hover:first-of-type {
+    background-color: black;
+}
+
+.body-section {
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 63em;
+}
+
+.body-section .video img {
+    width: 300px;
+    height: 175px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.body-section .video img:hover {
+    opacity: 0.7;
+}
+
+.body-section .video .description {
+    display: flex;
+    gap: 10px;
+}
+
+.body-section .video .description .circle {
+    width: 33px;
+    height: 33px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.body-section .video .description .details {
+    margin-top: 5px;
+}
+
+.body-section .video .description .details p {
+    color: #696969;
+    font-size: 13px;
+}
